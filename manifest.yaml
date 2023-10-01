@@ -1,0 +1,10 @@
+name: hello-python
+configuration:
+  instances: 1
+  # configurations:
+  environment:
+    DEBUG: true
+staging:
+  builder: "paketobuildpacks/python"
+origin:
+  path: /
